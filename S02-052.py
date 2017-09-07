@@ -86,13 +86,13 @@ else:
     lin_command = """
     <string>/bin/sh</string>
     <string>-c</string>
-    <string>ping -c 1 37.187.112.19</string>
+    <string>ping -c 1 IP</string>
     """
     win_command = """
     <string>ping</string>
     <string>-n</string>
     <string>1</string>
-    <string>37.187.112.19</string>
+    <string>IP</string>
     """
     commands.append(lin_command)
     commands.append(win_command)
